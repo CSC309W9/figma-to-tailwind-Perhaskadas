@@ -1,28 +1,23 @@
-// app/page.js
 export default function Home() {
   return (
-    <div className="w-[1769px] h-[1151px] relative bg-gradient-to-b from-[#db4439] to-[#75241e] overflow-hidden">
-      <div className="w-[150px] h-[52px] left-[1567px] top-[58px] absolute">
-        <div className="w-[150px] h-[52px] left-0 top-0 absolute bg-[#eaecd7] rounded-[49px]" />
-        <div className="left-[50px] top-0 absolute justify-start text-[#db4439] text-base font-black font-['Inknut_Antiqua']">Click</div>
+    <div className="w-full h-screen relative bg-gradient-to-b from-[#db4439] to-[#75241e] overflow-hidden shadow-lg">
+      <div className="w-36 h-13 absolute right-5 top-14">
+        <div className="w-full h-full bg-[#eaecd7] rounded-full" />
+        <div className="absolute inset-0 flex items-center justify-center text-[#db4439] text-base font-bold font-poppins">Click</div>
       </div>
-      <div className="origin-top-left rotate-[-8.64deg] w-[543px] h-[590.40px] left-[1068.69px] top-[226px] absolute">
-        <div className="w-[543px] h-[590.40px] left-[88.69px] top-0 absolute bg-[#d9d9d9]" />
-        <img className="w-[630.99px] h-[1054.71px] left-[81.51px] top-[-57.62px] absolute" src="https://placehold.co/631x1055" />
+      <div className="absolute transform rotate-6 w-1/3 h-auto right-10 top-1/4">
+        <div className="w-full h-auto bg-[#d9d9d9]" />
+        <img className="w-2/4 h-auto rounded-lg" src="https://placehold.co/631x1055" alt="Placeholder" />
       </div>
-      <div className="w-[680px] left-[143px] top-[313px] absolute justify-start text-[#eaecd7] text-[110px] font-black font-['Inknut_Antiqua'] leading-[134.20px]">This is the Topic This is the Topic</div>
-      <div className="w-[680px] left-[148px] top-[740px] absolute justify-start text-[#eaecd7] text-[40px] font-semibold font-['Inknut_Antiqua'] leading-[48.80px]">This is the Topic </div>
-      <div className="left-[270px] top-[46px] absolute justify-start text-[#eaecd7] text-2xl font-bold font-['Inknut_Antiqua']">Me</div>
-      <div className="left-[64px] top-[46px] absolute justify-start text-[#eaecd7] text-2xl font-bold font-['Inknut_Antiqua']">Front Page</div>
-      <div className="left-[891px] top-[46px] absolute justify-start text-[#eaecd7] text-2xl font-bold font-['Inknut_Antiqua']">ME</div>
-      <div className="left-[965px] top-[46px] absolute justify-start text-[#eaecd7] text-2xl font-bold font-['Inknut_Antiqua']">ME</div>
-      <div className="left-[716px] top-[46px] absolute justify-start text-[#eaecd7] text-2xl font-bold font-['Inknut_Antiqua']">Front Page</div>
-      <div className="w-[1804px] h-[102px] left-[-35px] top-[1049px] absolute bg-white" />
-      <div className="left-[124px] top-[1063px] absolute justify-start text-[#db4439] text-2xl font-black font-['Inknut_Antiqua'] leading-[29.28px]">This is the Topic</div>
-      <div className="left-[459px] top-[1063px] absolute justify-start text-[#db4439] text-2xl font-black font-['Inknut_Antiqua'] leading-[29.28px]">This is the Topic</div>
-      <div className="left-[794px] top-[1063px] absolute justify-start text-[#db4439] text-2xl font-black font-['Inknut_Antiqua'] leading-[29.28px]">This is the Topic</div>
-      <div className="left-[1464px] top-[1063px] absolute justify-start text-[#db4439] text-2xl font-black font-['Inknut_Antiqua'] leading-[29.28px]">This is the Topic</div>
-      <div className="left-[1129px] top-[1063px] absolute justify-start text-[#db4439] text-2xl font-black font-['Inknut_Antiqua'] leading-[29.28px]">This is the Topic</div>
+      <div className="absolute left-30 top-1/4 text-[#eaecd7] text-8xl font-black font-poppins leading-tight max-w-lg">BlaBla Coffe!</div>
+      <div className="absolute left-30 top-2/3 text-[#eaecd7] text-2xl font-poppins leading-snug max-w-lg">Your NO.1 Choice</div>
+      <div className="absolute left-16 top-12 text-[#eaecd7] text-2xl font-poppins">Home</div>
+      <div className="absolute left-1/4 transform -translate-x-1/2 top-12 text-[#eaecd7] text-2xl font-poppins">Menu</div>
+      <div className="absolute left-1/2 top-12 text-[#eaecd7] text-2xl font-poppins">Login</div>
+      <div className="w-full h-24 absolute bottom-0 bg-white" />
+      <div className="absolute left-10 bottom-6 text-[#db4439] text-2xl font-black font-poppins leading-tight">Contact Information</div>
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-[#db4439] text-2xl font-black font-poppins leading-tight">Company Policy</div>
+      <div className="absolute right-10 bottom-6 text-[#db4439] text-2xl font-black font-poppins leading-tight">Be our partner today</div>
     </div>
   );
 }
