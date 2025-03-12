@@ -5,9 +5,9 @@ export default function Home() {
         <div className="w-full h-full bg-[#eaecd7] rounded-full" />
         <div className="absolute inset-0 flex items-center justify-center text-[#db4439] text-base font-bold font-poppins">Click</div>
       </div>
-      <div className="absolute transform rotate-6 w-1/3 h-auto right-10 top-1/4">
+      <div className="absolute transform rotate-6 w-1/3 h-auto left-2/4 top-1/4">
         <div className="w-full h-auto bg-[#d9d9d9]" />
-        <img className="w-2/4 h-auto rounded-lg" src="https://placehold.co/631x1055" alt="Placeholder" />
+        <img className="h-auto rounded-lg" src="https://wallup.net/wp-content/uploads/2017/11/17/239445-coffee-coffee_beans-cup.jpg" alt="Placeholder" />
       </div>
       <div className="absolute left-30 top-1/4 text-[#eaecd7] text-8xl font-black font-poppins leading-tight max-w-lg">BlaBla Coffe!</div>
       <div className="absolute left-30 top-2/3 text-[#eaecd7] text-2xl font-poppins leading-snug max-w-lg">Your NO.1 Choice</div>
